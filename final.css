@@ -1,0 +1,131 @@
+/* Set a background color for the entire body */
+body {
+    background-color: #2c3e50;
+}
+
+/* Create a container for the main content */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the main content */
+#main {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ecf0f1;
+}
+
+/* Style the title */
+#title {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px #2c3e50;
+}
+
+/* Style the subtitle */
+#subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Create a section for the alien fleet */
+#fleet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Style the individual aliens */
+.aliens {
+    width: 100px;
+    height: 100px;
+    background-color: #16a085;
+    border-radius: 50%;
+    box-shadow: 2px 2px #2c3e50;
+}
+
+/* Create a section for the assembly */
+#assembly {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+
+/* Style the USS */
+#uss {
+    width: 150px;
+    height: 100px;
+    background-color: #2980b9;
+    box-shadow: 2px 2px #2c3e50;
+}
+
+/* Create a section for the start button */
+#startbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Style the start button */
+#start {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px #2c3e50;
+    text-shadow: 2px 2px #2c3e50;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Add hover effect for the start button */
+#start:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
+
+/* Create a bottom bar for the buttons */
+#bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #34495e;
+    padding: 0.5rem;
+    border-top: 2px solid #ecf0f1;
+}
+
+/* Style the buttons */
+.buttons {
+    background-color: #16a085;
+    color: #ecf0f1;
+    padding: 0.5rem 1.5rem;
+border-radius: 5px;
+font-size: 1.5rem;
+box-shadow: 2px 2px #2c3e50;
+text-shadow: 2px 2px #2c3e50;
+transition: all 0.2s ease-in-out;
+}
+
+/* Add hover effect for the buttons */
+.buttons:hover {
+background-color: #1abc9c;
+transform: scale(1.1);
+}
+
+/* Style the reset button */
+#reset {
+background-color: #e74c3c;
+}
+
+/* Style the status button */
+#status {
+background-color: #2980b9;
+}
